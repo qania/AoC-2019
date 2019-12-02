@@ -14,3 +14,10 @@ if __name__ == '__main__':
 
 	file.close()
 	print(fuel)
+
+
+def test_fuel_counterupper():
+	assert fuel_counterupper(12) == 2
+	assert fuel_counterupper(14) == 2
+	assert fuel_counterupper(1969) == 654
+	assert fuel_counterupper(100756) == 33583
